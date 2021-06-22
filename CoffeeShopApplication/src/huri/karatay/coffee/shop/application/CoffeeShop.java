@@ -6,7 +6,6 @@ import huri.karatay.coffee.shop.application.model.Americano;
 import huri.karatay.coffee.shop.application.model.CaffeLatte;
 import huri.karatay.coffee.shop.application.model.Cappuccino;
 import huri.karatay.coffee.shop.application.model.Coffee;
-import huri.karatay.coffee.shop.application.model.CoffeeFactory;
 import huri.karatay.coffee.shop.application.model.CoffeeType;
 import huri.karatay.coffee.shop.application.model.Doppio;
 import huri.karatay.coffee.shop.application.model.Espresso;

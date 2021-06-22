@@ -5,8 +5,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
+import huri.karatay.coffee.shop.application.CoffeeFactory;
 import huri.karatay.coffee.shop.application.model.Americano;
-import huri.karatay.coffee.shop.application.model.CoffeeFactory;
 import huri.karatay.coffee.shop.application.model.CoffeeType;
 import huri.karatay.coffee.shop.application.model.Mocha;
 

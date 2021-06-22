@@ -1,4 +1,14 @@
-package huri.karatay.coffee.shop.application.model;
+package huri.karatay.coffee.shop.application;
+
+import huri.karatay.coffee.shop.application.model.Americano;
+import huri.karatay.coffee.shop.application.model.CaffeLatte;
+import huri.karatay.coffee.shop.application.model.Cappuccino;
+import huri.karatay.coffee.shop.application.model.Coffee;
+import huri.karatay.coffee.shop.application.model.CoffeeType;
+import huri.karatay.coffee.shop.application.model.Doppio;
+import huri.karatay.coffee.shop.application.model.Espresso;
+import huri.karatay.coffee.shop.application.model.HotWater;
+import huri.karatay.coffee.shop.application.model.Mocha;
 
 public class CoffeeFactory {
 	
