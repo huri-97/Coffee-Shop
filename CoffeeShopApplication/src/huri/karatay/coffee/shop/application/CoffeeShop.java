@@ -45,6 +45,9 @@ public class CoffeeShop {
 					System.out.println("Good bye :)");
 					System.exit(0);
 				}
+				// Second requirement
+				System.out.println("Thanks. Your drink is being prepared. ");
+				break;
 			}
 		}
 	}
