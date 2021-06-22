@@ -47,8 +47,47 @@ public class CoffeeShop {
 				}
 				// Second requirement
 				System.out.println("Thanks. Your drink is being prepared. ");
-				break;
+				//ThirdRequirement
+				CoffeeType coffeeType = specifyType(choice);
+				Coffee coffee = orderCoffee(coffeeType);
+				String info = coffee.prepare();
+				System.out.println(coffee.toString()+ " is selected. This beverage contains "+ info + ". Bon appetit :) ");
 			}
+	
 		}
+		
 	}
+	
+	public CoffeeType specifyType(int choice) {
+		CoffeeType coffee = null;
+		switch(choice) {
+			case 1:
+				coffee = CoffeeType.ESPRESSO;
+				break;
+			case 2: 
+				coffee = CoffeeType.DOPPIO;
+				break;
+			case 3:
+				coffee = CoffeeType.CAPPUCCINO;
+				break;
+			case 4: 
+				coffee = CoffeeType.CAFFE_LATTE;
+				break;
+			case 5:
+				coffee = CoffeeType.MOCHA;
+				break;
+			case 6: 
+				coffee = CoffeeType.AMERICANO;
+				break;
+			case 7: 
+				coffee = CoffeeType.HOTWATER;
+				break;
+			default:
+				System.out.println("Wrong choice");
+				break;
+		}
+		return coffee;
+		
+	}
+
 }

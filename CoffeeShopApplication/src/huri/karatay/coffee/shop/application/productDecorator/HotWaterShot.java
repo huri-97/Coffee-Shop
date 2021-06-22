@@ -11,7 +11,6 @@ public class HotWaterShot implements CoffeeDecorator {
 	public String add() {
 		String info = this.dose + " dose hot water";
 		return info;
-
 		
 	}
 

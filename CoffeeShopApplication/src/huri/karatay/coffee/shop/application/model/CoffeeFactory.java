@@ -24,6 +24,9 @@ public class CoffeeFactory {
 	            case DOPPIO:
 	            	coffee = new Doppio();
 	            	break;
+	            case HOTWATER:
+	            	coffee = new HotWater();
+	            	break;
 	        }
 
 	        return coffee;
