@@ -4,8 +4,8 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		//CoffeeShop order = new CoffeeShop();
-		//order.start();
+		CoffeeShop order = new CoffeeShop();
+		order.start();
 
 	}
 }
