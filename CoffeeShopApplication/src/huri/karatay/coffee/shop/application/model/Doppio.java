@@ -36,7 +36,7 @@ public class Doppio extends Coffee{
 
 	@Override
 	public String toString() {
-		return "Doppio";
+		return "Double Espresso";
 	}
 
 }
