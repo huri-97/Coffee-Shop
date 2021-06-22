@@ -37,6 +37,8 @@ public class CoffeeShop {
 			Scanner scan = new Scanner(System.in);
 			System.out.print("Please enter the number of the coffee you want to drink: ");
 			choice = scan.nextInt();
+
+			
 			if(choice <1 || choice >8) {
 				System.out.println("You entered invalid number :( \n");
 				continue;
